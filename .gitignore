@@ -1,0 +1,11 @@
+#laravel
+/vendor
+/node_modules
+.env
+# Composer
+composer.phar                                                                  
+composer.lock
+# OS
+.DS_Store
+.idea/
+Thumbs.db
