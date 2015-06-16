@@ -2,8 +2,7 @@
 
 <!-- css文件 -->
 @section('css')
-
-@endsection()
+@stop
 
 <!-- 主要内容 -->
 @section('content')
@@ -50,7 +49,7 @@
         </div>
     </div>
 </div>
-@endsection
+@stop
 <!-- js文件 -->
 @section('js')
 <script>
@@ -169,4 +168,4 @@ table.on('click', '.unrefundOne', function(){
     return true;
 });
 </script>
-@endsection
+@stop
